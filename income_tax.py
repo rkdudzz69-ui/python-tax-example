@@ -1,5 +1,4 @@
-income = 4500
-tax = 0
+income = int(input("당신의 연간 소득을 입력하세요 (만원 단위): "))
 
 if income >= 10000:
     level = "고소득자"
